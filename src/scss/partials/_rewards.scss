@@ -1,0 +1,173 @@
+//rewards
+.rewards{
+    padding-bottom: 50px;
+    .container{
+       .rewards{
+        &__text{
+            margin-bottom: 45px;
+        }
+        &__img{
+            .box{
+                padding: 40px;
+
+            }
+        }
+       &__info{
+            padding: 30px 15px 0 30px !important;
+            .title{
+                color: #383838;
+                font-size: 33px;
+                font-weight: 500;
+                margin-bottom: 21px;
+            }
+            p{
+                color: #b3b3b3;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 24px;
+                margin-bottom: 30px;
+            }
+            form{
+                display: flex;
+                input{
+                    appearance: none;
+                }
+                input[type="email"]{
+                    width:60%;
+                    max-width: 100%;
+                    height: 51px;
+                    border-radius: 5px 0 0 5px;
+                    border: 1px solid #d2eef9;
+                    color: #b3b3b3;
+                    font-size: 15px;
+                    font-weight: 400;
+                    padding-left: 30px;
+                    outline: 0;
+                    &::placeholder{
+                        color: #b3b3b3;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+                input[type="submit"]{
+                    width: 40%;
+                    max-width: 100%;
+                    height: 51px;
+                    border-radius: 0 5px 5px 0;
+                    background-color: #2693ff;
+                    border: 0;
+                    color: #fff;
+                    font-size: 13px;
+                    font-weight: 500;
+                    transition: 0.3s;
+                    &:hover{
+                        transition: 0.3s;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+       }
+        max-width: 950px;
+      
+    }
+    &__invite{
+        margin-bottom: 30px;
+        .box{
+            padding: 35px 27px 30px 27px;
+            .title{
+                color: #383838;
+                font-size: 27px;
+                font-weight: 500;
+                margin-bottom: 33px;
+            }
+            p{
+                a{
+                    color: #2693ff;
+                    text-decoration: none;
+                }
+            }
+            ul{
+                list-style: none;
+                margin-bottom: 0;
+                li{
+                    margin-bottom: 31px;
+                    .box{
+                        padding: 0;
+                        transition: 0.3s;
+                        &:hover{
+                            transition: 0.3s;
+                            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+                            border: 1px solid rgba(210, 238, 249, 0);
+                        }
+                        a{
+                            height: 51px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #383838;
+                            font-size: 15px;
+                            font-weight: 400;
+                            text-decoration: none;
+                            padding: 0 5px;
+
+                        }
+                        img{
+                            height: 27px;
+                            margin-right: 23px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__status{
+        .box{
+            margin-top: 20px;
+
+        }
+        .table{
+            margin-bottom: 50px;
+            thead{
+                border-bottom: 1px solid #d2eef9;
+                th{
+                    border: 0;
+                    color: #283238;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+            tbody{
+                tr{
+                    padding: 5px 0;
+                    th, td{
+                        border: 0;
+                    }
+                    th{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 15px 5px;
+                        span{
+                            display: block;
+                            width: 14px;
+                            height: 15px;
+                            border-radius: 7px;
+                            background-color: #2693ff;
+                        }
+                    }
+                    td{
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding: 15px 12px;
+                        span{
+                            color: #2693ff;
+                            font-size: 12px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

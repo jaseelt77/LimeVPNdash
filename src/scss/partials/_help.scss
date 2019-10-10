@@ -1,0 +1,38 @@
+//help
+
+.help{
+    padding-bottom: 50px;
+    .title{
+        margin-bottom: 50px;
+    }
+    .box{
+        padding: 20px 30px;
+        margin-bottom: 30px;
+        .title{
+        margin-bottom: 20px;
+        }
+        .title, .title a{
+            color: #777;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 25px;
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+            li{
+                list-style: none;
+                margin-bottom: 20px;
+                &:last-of-type{
+                    margin-bottom: 0;
+                    a{
+                        color: #2693ff;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+//tutorials
+
+.tutorials{
+    padding-bottom: 50px;
+    .s_title{
+        margin-bottom: 30px;
+    }
+    .col-12{
+        max-width: 870px;
+        margin: 0 auto;
+    }
+    &__logos{
+        margin-bottom: 28px;
+        li{
+            list-style: none;
+            margin-bottom: 32px;
+            a{
+                height: 84px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 4px;
+                border: 1px solid #d2eef9;
+                transition: 0.3s;
+                img{
+                    height: 27px;
+                    transition: 0.3s;
+                    opacity: 0.5;
+
+                }
+                &:hover{
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    border: 1px solid rgba(210, 238, 249, 0);
+                    img{
+                        opacity: 1;
+                        transition: 0.3s;
+                    }
+                }
+                &.active{
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    border: 1px solid rgba(210, 238, 249, 0);
+                    img{
+                        opacity: 1;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+    .title{
+        color: #808080;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    &__instructions{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-bottom: 20px;
+        li{
+            margin: 0 10px 15px 0;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-width: 105px;
+                height: 35px;
+                border-radius: 3px;
+                border: 1px solid #d2eef9;
+                color: #999;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: 0.32px;
+                line-height: 15px;
+                text-decoration: none;
+                text-transform: uppercase;
+                &.active{
+                    color: #2693ff;
+                    border-color: #2693ff;
+                }
+            }
+        }
+    }
+    .columns{
+        columns: 2;
+        margin-bottom: 30px;
+        li{
+            list-style: none;
+            color: #999999;
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 0.37px;
+            line-height: 16px;
+            margin-bottom: 20px;
+            padding-right: 15px;
+            b{
+                color: #666666;
+                font-weight: 500;
+            }
+        }
+
+    }
+    &__more{
+        display: flex;
+        justify-content: flex-end;
+        a{
+            color: #2693ff;
+        }
+    }
+}

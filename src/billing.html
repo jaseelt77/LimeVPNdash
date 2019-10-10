@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <title>LimeVPN</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!--Fonts-->
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_comp/bootstrap/dist/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="bower_comp/components-font-awesome/css/all.css" />
+    <!-- endbower -->
+
+    
+</head>
+<body>
+    <div class="header__notification">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 col-md-8">
+                    <p class="font-weight-600 font_20">Your trial will expire soon. Upgrade your plan for a better internet experience...</p>
+                </div>
+                <div class="col-6 col-md-4 d-flex align-items-center justify-content-end">
+                        <a class="btn_white" href="plans.html">Upgrade Now</a>
+                        <a class="notification_close" href="#/"><img src="img/icon_close.svg" alt="Icon" /></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--begin header-->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-6 col-md-6">
+                    <a href="/"><img src="img/logo_white.svg" alt="logo"></a>
+                </div>
+                <div class="col-6 col-md-6 d-flex align-items-center justify-content-end">
+                    <a class="btn_white btn_upgrade" href="#/">
+                   
+                    <img src="img/icon_upgrade.svg" alt="Icon" />
+                    Upgrade Now</a>
+                     <!-------notification start----------->
+                     <div class="dropdown dropdown_notification show">
+                        <a class="btn_notification dropdown-toggle" href="#" role="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="img/icon_notification.svg" alt="Icon" />
+                            <span>2</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="notification">
+                           <h3 class="title">Notifications</h3>
+                            <ul class="p-0 m-0">
+                                <li>
+                                    <img class="icon_notification" src="img/icon_botification_black.svg" alt="Icon" />
+                                    <p><b>Lorem ipsum dolor sit amet, consectetuer</b> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim</p>
+                                    <a class="icon_close" href="#/"><img src="img/icon_close_notification.svg" alt="Icon" /></a>
+                                </li>
+                                <li>
+                                    <img class="icon_notification" src="img/icon_botification_black.svg" alt="Icon" />
+                                    <p><b>Lorem ipsum dolor sit amet, consectetuer</b> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim</p>
+                                    <a class="icon_close" href="#/"><img src="img/icon_close_notification.svg" alt="Icon" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-------notification end----------->
+
+                     <!------profile view start----------->
+                <div class="dropdown dropdown_profile show">
+                    <a class="btn_profile btn btn_secondary dropdown-toggle" href="#" role="button" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hello, @alpha@yhgh.com</a>
+                    <div class="dropdown-menu" aria-labelledby="profile">
+                        <a class="dropdown-item" href="profile.html">
+                            <img src="img/icon_profile.svg" alt="icon" />
+                            <img src="img/icon_profile_blue.svg" alt="icon" />
+                            profile
+                        </a>
+                        <a class="dropdown-item" href="submit_feedback.html">
+                                <img src="img/icon_feedback.svg" alt="Icon" />
+                                <img src="img/icon_feedback_blue.svg" alt="Icon" />
+                                Submit feedback
+                            </a>
+                            <a class="dropdown-item" href="network_status.html">
+                                <img src="img/icon_network.svg" alt="Icon" />
+                                <img src="img/icon_network_blue.svg" alt="Icon" />
+                                Network status
+                            </a>
+                            <a class="dropdown-item" href="tutorials.html">
+                                <img src="img/icon_tutorials.svg" alt="Icon" />
+                                <img src="img/icon_tutorials_blue.svg" alt="Icon" />
+                                Tutorials
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="img/icon_signout.svg" alt="Icon" />
+                                <img src="img/icon_signout_blue.svg" alt="Icon" />
+                                Signout
+                            </a>
+                           
+                    </div>
+                   </div>
+                   
+                     <!------profile view end----------->
+                     <!--mobile responsive-->
+                     <div class="header__menu d-block d-md-block d-lg-none">
+                         <a href="#" role="button" id="mob_nav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             <img src="img/icon_hamburger.svg" alt="Icon">
+                             <img src="img/icon_hamburger_open.svg" alt="Icon" />
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="mob_nav">
+                             <a class="dropdown-item"  href="dashboard.html">
+                                 <img src="img/icon_dashboard.svg" alt="Icon" />
+                                 <img src="img/icon_dashboard_blue.svg" alt="Icon" />
+                                 Dashboard
+                             </a>
+                             <a class="dropdown-item" href="how_to_use.html">
+                                <img src="img/icon_htu.svg" alt="Icon" />
+                                <img src="img/icon_htu_blue.svg" alt="Icon" />
+                                How to use
+                            </a>
+                            <a class="dropdown-item" href="support.html">
+                                <img src="img/icon_support.svg" alt="Icon" />
+                                <img src="img/icon_support_blue.svg" alt="Icon" />
+                                Support
+                            </a>
+                            <a class="dropdown-item" href="billing.html">
+                                <img src="img/icon_billing.svg" alt="Icon" />
+                                <img src="img/icon_billing_blue.svg" alt="Icon" />
+                                Billing
+                            </a>
+                            <a class="dropdown-item" href="rewards.html">
+                                <img src="img/icon_rewards.svg" alt="Icon" />
+                                <img src="img/icon_rewards_blue.svg" alt="Icon" />
+                                Rewards
+                            </a>
+                            <a class="dropdown-item" href="profile.html">
+                                <img src="img/icon_profile.svg" alt="Icon" />
+                                <img src="img/icon_profile_blue.svg" alt="Icon" />
+                                Profile
+                            </a>
+                            <a class="dropdown-item" href="submit_feedback.html">
+                                <img src="img/icon_feedback.svg" alt="Icon" />
+                                <img src="img/icon_feedback_blue.svg" alt="Icon" />
+                                Submit feedback
+                            </a>
+                            <a class="dropdown-item" href="network_status.html">
+                                <img src="img/icon_network.svg" alt="Icon" />
+                                <img src="img/icon_network_blue.svg" alt="Icon" />
+                                Network status
+                            </a>
+                            <a class="dropdown-item" href="tutorials.html">
+                                <img src="img/icon_tutorials.svg" alt="Icon" />
+                                <img src="img/icon_tutorials_blue.svg" alt="Icon" />
+                                Tutorials
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="img/icon_signout.svg" alt="Icon" />
+                                <img src="img/icon_signout_blue.svg" alt="Icon" />
+                                Signout
+                            </a>
+                         </div>
+                     </div>
+                     <!--mobile responsive-->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--end header-->
+
+ <!--begin header nav-->
+<section class="header_nav">
+    <div class="container">
+        <div class="row">
+            <ul class="d-flex justify-content-center m-0 p-0 w-100">
+                <li >
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+                <li class="active">
+                    <a href="billing.html">Billing</a>
+                </li>
+                <li>
+                    <a href="how_to_use.html">How to use</a>
+                </li>
+                <li>
+                    <a href="rewards.html">Rewards</a>
+                </li>
+                <li>
+                    <a href="support.html">Support</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+ <!--end header nav-->
+<!--begin billing-->
+<section class="billing d-none d-md-block d-lg-block">
+    <div class="container">
+        <div class="billing_subscribed">
+          <div class="row">
+              <div class="col-8 col-md-8">
+                  <div class="box">
+                      <p>You are Subscribed to <b>LimeVPN Basic</b> Plan</p>
+                  </div>
+              </div>
+              <div class="col-4 col-md-4">
+                  <div class="box box_cancel">
+                      <a href="#/" data-toggle="modal" data-target="#cancel">Cancel Subscription</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="billing_active">
+            <div class="row box ml-0 mr-o">
+                <div class="col-3 col-md-3 billing_active__item billing_active__bg">
+                    <p>Active Subscription</p>
+                </div>
+                <div class="col-3 col-md-3 billing_active__item">
+                    <p>LimeVPN Basic</p>
+                </div>
+                <div class="col-3 col-md-3 billing_active__item">
+                    <a class="color_green" href="plan.html">Change Plan</a>
+                </div>
+                <div class="col-3 col-md-3 billing_active__item">
+                    <a class="color_red" href="#/" data-toggle="modal" data-target="#cancel">
+                    Cancel Subscription
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-12 col-md-12 billing_table">
+               <div class="box">
+                   <nav>
+                       <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Invoices</a>
+                          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Billing Details</a>
+                          <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Payment method</a>
+                       </div>
+                   </nav>
+                   <div class="tab-content" id="nav-tabContent">
+                       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                           <table class="table">
+                              <thread>
+                                   <tr>
+                                       <th scope="col"></th>
+                                       <th scope="col">ID</th>
+                                       <th scope="col">Product</th>
+                                       <th scope="col">Date</th>
+                                       <th scope="col">Price</th>
+                                       <th scope="col">Invoice</th>
+
+                                   </tr>
+                               </thread>
+                               <tbody>
+                                   <tr>
+                                       <th class="form-check" scope="row">
+                                           <label>
+                                               <input type="checkbox" value="">
+                                               <span class="cr"><i class="cr-icon fas fa-check"></i></span>
+                                           </label>
+                                       </th>
+                                       <td>#44RT65</td>
+                                       <td class="color_green">Lime VPN Professional</td>
+                                       <td>10-04-2019 <span>( 10:22:34 )</span></td>
+                                       <td class="color_orange">$ 0.87</td>
+                                       <td>
+                                           <a href="#/">View</a>
+                                           <a href="#/"><img src="img/icon_download_blue.svg"></a>
+                                           <a href="#/"><img src="img/icon_save_blue.svg"></a>
+                                       </td>
+                                   </tr>
+                                   <tr>
+                                        <th class="form-check" scope="row">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon fas fa-check"></i></span>
+                                            </label>
+                                        </th>
+                                        <td>#44RT65</td>
+                                        <td class="color_green">Lime VPN Professional</td>
+                                        <td>10-04-2019 <span>( 10:22:34 )</span></td>
+                                        <td class="color_orange">$ 0.87</td>
+                                        <td>
+                                            <a href="#/">View</a>
+                                            <a href="#/"><img src="img/icon_download_blue.svg" alt="Icon" /></a>
+                                            <a href="#/"><img src="img/icon_save_blue.svg" alt="Icon" /></a>
+                                        </td>
+                                    </tr>
+                               </tbody>
+                           </table>
+                       </div>
+                       <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                           <form>
+                               <label for="name" class="label_half">
+                                   First name
+                                   <input type="text" id="name">
+                               </label>
+                               <label for="last_name" class="label_half">
+                                    Last name
+                                    <input type="text" id="last_name">
+                                </label>
+                               <label for="city" class="label_four">
+                                    City
+                                    <input type="text" id="city">
+                                </label>
+                                <label for="country" class="label_four">
+                                        Country
+                                    <input type="text" id="country">
+                                </label>
+                                <label for="code" class="label_four">
+                                        Post Code
+                                    <input type="text" id="code">
+                                </label>
+                                <label for="phone" class="label_four">
+                                        Contact no.
+                                    <input type="tel"  class="focused" id="phone">
+                                </label>
+                                <label for="address">
+                                        Billing Address
+                                    <textarea id="address"></textarea>
+                                </label>
+                                <div class="d-flex justify-content-end w-100">
+                                    <input type="submit" class="btn_blue" value="save">
+                                </div>
+                                
+                           </form>
+                       </div>
+                       
+                       <div class="tab-pane fade billing_methods" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                           <ul class="p-0 d-flex flex-wrap">
+                               <li>
+                                   <a href="#/">
+                                     <img src="img/logo_paymentwall.svg" alt="logo">
+                                   </a>
+                               </li>
+                               <li>
+                                    <a href="#/">
+                                      <img src="img/logo_paypal.svg" alt="logo">
+                                    </a>
+                                </li>
+                              
+                           </ul>
+                           <div class="d-flex justify-content-end">
+                               <a class="btn_blue" href="#/">Export All</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+<!--end billing-->
+
+<!--begin plan billing-->
+<section class="billing d-block d-md-none d-lg-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <div class="billing_accordion box d-flex justify-content-between align-items-center flex-wrap">
+                    <h3 class="title">Active Subscription</h3>
+                    <a class="accordion_arrow" href="#/"><img src="img/icon_billing_arrow.svg" alt="arrow"></a>
+                   <div class="accordion_hidden billing_accordion__subscription">
+                       <ul class="box p-0 d-flex justify-content-between">
+                           <li>
+                               <P>plan</P>
+                               <P>Renews On</P>
+                           </li>
+                           <li>
+                               <p class="color_d_grey">LimeVPN Basic</p>
+                               <p class="color_green">15-10-2019</p>
+                           </li>
+                       </ul>
+                      <div class="d-flex justify-content-between billing_accordion__btns">
+                          <a class="btn_plan" href="plans.html">Change Plan</a>
+                          <a class="btn_subscription" href="#/" data-toggle="modal" data-target="#cancel">Cancel Subscription</a>
+                      </div>
+                   </div>
+                </div>
+                <div class="billing_accordion box d-flex justify-content-between align-items-center flex-wrap">
+                    <h3 class="title">Invoices</h3>
+                    <a class="accordion_arrow" href="#/"><img src="img/icon_billing_arrow.svg"></a>
+                   <div class="accordion_hidden billing_accordion__invoice">
+                       <table class="table">
+                           <thread>
+                               <tr>
+                                   <th class="form-check" scope="row">
+                                       <label>
+                                           <input type="checkbox" value="">
+                                           <span class="cr"><i class="cr-icon fas fa-check"></i></span>
+                                       </label>
+                                   </th>
+                                   <th scope="col">ID</th>
+                                   <th scope="col"></th>
+                                   <th scope="col"></th>
+                               </tr>
+                           </thread>
+                           <tbody>
+                               <tr>
+                                   <th class="form-check" scope="row">
+                                       <label>
+                                           <input type="checkbox" value="">
+                                           <span class="cr"><i class="cr-icon fas fa-check"></i></span>
+                                       </label>
+                                   </th>
+                                   <td>#44RT65</td>
+                                   <td>19-05-1019</td>
+                                   <td class="td_bg"><span>Lime VPN Basic</span></td>
+                               </tr>
+                               <tr>
+                                   <th class="form-check" scope="row">
+                                       <label>
+                                           <input type="checkbox" value="">
+                                           <span class="cr"><i class="cr-icon fas fa-check"></i></span>
+                                       </label>
+                                   </th>
+                                   <td>#456TY6</td>
+                                   <td>19-05-1019</td>
+                                   <td class="td_bg"><span>Lime VPN Basic</span></td>
+                               </tr>
+                               <tr>
+                                   <th class="form-check" scope="row">
+                                       <label>
+                                           <input type="checkbox" value="">
+                                           <span class="cr"><i class="cr-icon fas fa-check"></i></span>
+                                       </label>
+                                   </th>
+                                   <td>#4475y7</td>
+                                   <td>19-05-1019</td>
+                                   <td class="td_bg"><span>Lime VPN basic</span></td>
+                               </tr>
+                               <tr>
+                                    <th class="form-check" scope="row">
+                                        <label>
+                                            <input type="checkbox" value="">
+                                            <span class="cr"><i class="cr-icon fas fa-check"></i></span>
+                                        </label>
+                                    </th>
+                                    <td>#4475y7</td>
+                                    <td>19-05-1019</td>
+                                    <td class="td_bg"><span>Lime VPN basic</span></td>
+                                </tr>
+                           </tbody>
+                       </table>
+                   </div>
+                </div>
+                <div class="billing_accordion box d-flex justify-content-between align-items-center flex-wrap">
+                    <h3 class="title">Billing Detailes</h3>
+                    <a class="accordion_arrow" href="#/"><img src="img/icon_billing_arrow.svg" alt="arrow"></a>
+                   <div class="accordion_hidden billing_accordion__form">
+                       <form>
+                           <label for="name_mob">
+                               First name
+                               <input type="text" id="name_mob">
+                           </label>
+                           <label for="last_name_mob">
+                               Last name
+                               <input type="text" id="last_name_mob">
+                           </label>
+                           <label for="city_mob" class="label_three">
+                            City
+                            <input type="text" id="city_mob">
+                           </label>
+                           <label for="country_mob" class="label_three">
+                               country
+                            <input type="text" id="country_mob">
+                           </label>
+                           <label for="code_mob" id="label_three">
+                               Post  code
+                               <input type="text" id="code_mob">
+                           </label>
+                           <label for="phone">
+                               Contact No
+                               <input class="focused" id="phone" type="tel">
+                           </label>
+                           <label for="address_mob">
+                               Billing Address 
+                               <textarea id="address_mob"></textarea>
+                           </label>
+                           <div class="d-flex justify-content-center justify-content-md-end justify-content-lg-end w-100">
+                               <input type="submit" class="btn_blue" value="Save">
+                           </div>
+                       </form>
+                   </div>
+                </div>
+                <!-- <div class="billing_accordion box d-flex justify-content-center align-items-center flex-wrap">
+                    <h3 class="title">Payment Method</h3>
+                    <a class="accordion_arrow" href="#/"><img src="img/icon_billing_arrow.svg" alt="arrow" /></a>
+                    <div class="accordion_hidden billing_accordion__methods">
+                        <ul class="p-0 d-flex flex-wrap justify-content-between">
+                            <li>
+                                <a href="#/">
+                                <img src="img/logo_paymentwall.svg" alt="logo" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#/">
+                                <img src="img/logo_paypal.svg" alt="logo">
+                                </a>
+                            </li>
+                        </ul>
+                     
+                    </div>
+                </div> -->
+                <div class="billing_accordion box d-flex justify-content-between align-items-center flex-wrap">
+                    <h3 class="title">Payment Method</h3>
+                    <a class="accordion_arrow" href="#/"><img src="img/icon_billing_arrow.svg" alt="Arrow" /></a>
+                    <div class="accordion_hidden billing_accordion__methods">
+                        <ul class="p-0 d-flex flex-wrap justify-content-between">
+                            <li>
+                                <a href="#/">
+                                    <img src="img/logo_paymentwall.svg" alt="Logo" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#/">
+                                    <img src="img/logo_paypal.svg" alt="Logo" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--end  plan billing-->
+<!--   modal  -->
+
+<div class="modal fade bd-example-modal-lg modal-cancel show" id="cancel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg modal-dialog-centerd" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+               <div class="b-b d-flex justify-content-between align-items-center">
+                 <h3 class="title">Cancel Your LimeVPN Subscription</h3>
+                 <a class="close_modal" href="#/" data-dismiss="modal" aria-label="close">
+                    <img src="img/icon_cancel_close.svg" alt="icon">
+                 </a>
+                </div>
+                <div class="b-b">
+                    <p class="font_12">We are sad To see go. Please Take a moment to tell us why you want to cancel your Account</p>
+                
+                </div>
+                <div class="b-b">
+                    <select>
+                        <option selected disabled>*Reason For cancelling Your Account</option>
+                        <option>First Reason</option>
+                        <option>Second Reason</option>
+                    </select>
+                </div>
+                <div class="b-b pb-2">
+                        <textarea placeholder="Any other feedback?"></textarea>
+                    </div>
+                <div class="b-b pb-2">
+                        <p class="font_10">By clicking <b>Cancel Subscription</b> below, you are confirming the
+                            cancellation and deletion of your account. LimeVPN powdered
+                            VPN system acress all integrated products will stop working and
+                            this will cause an irreversable deletion of your account data
+                            including call records.</p>
+                </div>
+               <div class="w-100 text-center">
+                <a class="btn_orange" href="#/">Cancel</a>
+               </div>
+          </div>
+       </div>
+   </div>
+</div>
+
+<!--  end modal  -->
+
+
+
+    
+<!-- bower:js -->
+
+<script src="bower_comp/jquery/dist/jquery.js"></script>
+<script src="bower_comp/popper.js/dist/umd/popper.js"></script>
+<script src="bower_comp/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_comp/chart.js/dist/Chart.js"></script>
+<!-- endbower -->
+<!-- Scripts -->
+<script src="js/main.js"></script>
+</body>
+</html>
